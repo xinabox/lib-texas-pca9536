@@ -18,11 +18,11 @@ PCA9536 class
 
 .. class:: PCA9536(self, drvname, addr = PCA9536_I2C_ADDRESS , clk = 100000)
 
-        Create an instance of the PCA9536 class.
+    Create an instance of the PCA9536 class.
 
-        :param drvname: I2C Bus used '( I2C0, ... )'
-        :param addr: Slave address, default 0x41
-        :param clk: Clock speed, default 100kHz
+    :param drvname: I2C Bus used '( I2C0, ... )'
+    :param addr: Slave address, default 0x41
+    :param clk: Clock speed, default 100kHz
 
     
 .. method:: init(self, pins = PCA9536_ALL_OUTPUTS_OFF)
@@ -43,7 +43,7 @@ PCA9536 class
 .. method:: getStatus(self)
 
         Reads the status of the output port. To read a single bit/pin mask the return value with the pin number.
-        | Eg. getStatus()& OUT0
+        Eg. getStatus() & OUT0
 
         returns the status of the output port
 
