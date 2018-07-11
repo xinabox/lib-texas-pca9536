@@ -10,8 +10,7 @@ The board uses I2C for communication.
 
 
 Data Sheets: `PCA9536 <http://www.ti.com/lit/ds/symlink/pca9536.pdf>`_
-
-        
+    
 ===============
 PCA9536 class
 ===============
@@ -46,5 +45,3 @@ PCA9536 class
         Eg. getStatus() & OUT0
 
         returns the status of the output port
-
-        
