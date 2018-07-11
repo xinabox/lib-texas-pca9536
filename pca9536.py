@@ -48,7 +48,7 @@ class PCA9536(i2c.I2C):
 PCA9536 class
 ===============
 
-.. class:: PCA9536(self, drvname, addr = PCA9536_I2C_ADDRESS , clk = 100000)
+.. class:: PCA9536(self, drvname, addr = 0x41, clk = 100000)
 
         Create an instance of the PCA9536 class.
 
