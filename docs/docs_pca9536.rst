@@ -21,7 +21,7 @@ PCA9536 class
 
     :param drvname: I2C Bus used '( I2C0, ... )'
     :param addr: Slave address, default 0x41
-    :param clk: Clock speed, default 100kHz
+    :param clk: Clock speed, default 100kHz::
 
     
 .. method:: init(self, pins = PCA9536_ALL_OUTPUTS_OFF)
